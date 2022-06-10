@@ -1,0 +1,121 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #310a58;
+    color: white;
+    font-family: Uni Sans;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+}
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.header_item:hover{
+    background: #310a70;
+    border-radius: 1px;
+}
+.headerButton{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+}
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(#310a61 1.1%, rgb(188, 16, 80) 130.5%);
+    height: 2000px;
+    font-family: "Uni Sans";
+}
+.wrap{
+    display: flex;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.slider button{
+    width: 30px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    outline: none;
+    opacity: 0.5;
+    transition: opacity 300ms ease-out;
+}
+button:hover{
+    opacity: 1;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+}
+.scroller{
+    flex:1;
+    overflow: clip;
+}
+.items{
+    list-style-type: none;
+    white-space: nowrap;
+    transition: transform 1s ease-in-out;
+}
+.item{
+    padding: 30px 20px;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+input{
+    padding:10px;
+    border-radius:10px;
+    margin-top: 1%;
+}
+.hr-line {
+    margin: 5px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid white;
+}
+.new1{
+    display: inline-block;
+    color: white;
+    font-size: 200%;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    font-size: 15px;
+    background: #fff!important;
+}
+.table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #310a58;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid white;
+}
